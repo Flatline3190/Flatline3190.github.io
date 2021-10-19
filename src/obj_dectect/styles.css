@@ -1,0 +1,662 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+  margin: 0px;
+}
+
+#fPanel {
+  height: 100%;
+  position: absolute;
+  display: block;
+  -webkit-user-select: none;
+  z-index: 6;
+  background: rgba(202, 233, 245, 0.938);
+  height: 100%;
+  font-family: monospace;
+  pointer-events: none;
+}
+#articlePanel {
+  height: 100%;
+  position: absolute;
+  display: block;
+  -webkit-user-select: none;
+  z-index: 4;
+  background: rgba(202, 233, 245, 0.938);
+  padding: 0.7em;
+  width: 500px;
+  height: calc(100% - 120px);
+  font-family: monospace;
+  pointer-events: none;
+}
+.article {
+  text-align: center;
+  font-family: monospace;
+  background: rgb(148, 243, 222, 0.5);
+  padding: 0.7em;
+  width: 500px;
+  height: calc(100% - 120px);
+  pointer-events: visibleFill;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  display: 'block';
+  font-size: 30px;
+}
+
+.articletext {
+  font-size: 20px;
+  line-height: 35px;
+  list-style-type: none;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgba(228, 227, 227, 0.767);
+  padding: 0.5em;
+  width: 100%;
+  height: 92.5%;
+
+  text-align: center;
+}
+.ftext {
+  font-size: 20px;
+  line-height: 25px;
+  list-style-type: none;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgba(228, 227, 227, 0.767);
+  padding: 0.5em;
+
+  text-align: left;
+}
+.flink {
+  position: relative;
+  pointer-events: pointer;
+  line-height: 35px;
+  top: 20px;
+  width: 100%;
+  background: rgba(162, 112, 255, 0.685);
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+
+  padding: 0.5em;
+  display: block;
+}
+.articlelink {
+  position: relative;
+  pointer-events: pointer;
+  line-height: 35px;
+  top: 200px;
+  width: 100%;
+  background: rgba(162, 112, 255, 0.685);
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+
+  padding: 0.5em;
+  display: block;
+}
+#layout {
+  mix-blend-mode: normal;
+  z-index: 3;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border: 2px solid white;
+  background: rgba(42, 43, 43, 0);
+  display: block;
+  position: absolute;
+  bottom: 0px;
+}
+#render_container {
+  mix-blend-mode: normal;
+  z-index: 4;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
+  bottom: 0px;
+}
+#baseinfo {
+  display: block;
+}
+
+#mv {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#info {
+  display: block;
+}
+.buildName {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+
+  color: #ffffff;
+  font-family: monospace;
+  pointer-events: none;
+  font-size: 14px;
+  position: absolute;
+  top: -25px;
+  left: 30px;
+  padding: 0.3em;
+  width: 100px;
+  height: 28px;
+  border: 1px solid rgba(252, 252, 252, 0.404);
+  background: rgba(75, 74, 74, 0.705);
+  text-align: center;
+  transition: opacity 0.5s;
+  display: block;
+  border-radius: 3px;
+}
+
+.pointerName {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  z-index: 4;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: monospace;
+  pointer-events: none;
+  font-size: 15px;
+  position: fixed;
+  border: 2px solid rgba(117, 183, 209, 0.774);
+  padding: 0.3em;
+  width: auto;
+  height: 30px;
+  background: rgba(143, 140, 140, 0.801);
+  text-align: center;
+  transition: opacity 0.5s;
+  display: block;
+  border-radius: 0.5em;
+}
+
+#sponser {
+  z-index: 4;
+  -webkit-user-select: none;
+  top: 1px;
+  left: 75px;
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 20px;
+  position: absolute;
+}
+
+#backButton {
+  -webkit-user-select: none;
+  z-index: 4;
+  cursor: pointer;
+  pointer-events: visibleFill;
+  color: #000000;
+  font-family: monospace;
+  font-size: 28px;
+  position: absolute;
+  top: 20px;
+  right: calc(430px + 10px);
+  width: 60px;
+  height: 45px;
+  text-align: center;
+  background: rgba(236, 225, 225, 0.66);
+  border-radius: 1em;
+  border: 3px solid rgb(65, 65, 65);
+  cursor: pointer;
+}
+
+#closeButton {
+  -webkit-user-select: none;
+  z-index: 4;
+  cursor: pointer;
+  pointer-events: visibleFill;
+  padding: 0.1em;
+  color: #000000;
+  font-family: monospace;
+  font-size: 25px;
+  position: absolute;
+  top: 20px;
+  right: calc(155px + 10px);
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  background: rgba(236, 225, 225, 0.66);
+  border-radius: 2em;
+  border: 3px solid rgb(65, 65, 65);
+  cursor: pointer;
+}
+
+#hideButton {
+  -webkit-user-select: none;
+  z-index: 4;
+  pointer-events: visibleFill;
+  padding: 0.1em;
+  color: #000000;
+  font-family: monospace;
+  font-size: 23px;
+  position: absolute;
+  top: 70px;
+  right: calc(157px + 10px);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background: rgba(236, 225, 225, 0.66);
+
+  border-radius: 2em;
+  border: 3px solid rgb(65, 65, 65);
+  cursor: pointer;
+}
+#controlButton {
+  -webkit-user-select: none;
+  z-index: 4;
+  pointer-events: visibleFill;
+  padding: 0.01em;
+  color: #000000;
+  font-family: monospace;
+  font-size: 23px;
+  position: absolute;
+  top: 120px;
+  right: calc(157px + 10px);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background: rgba(236, 225, 225, 0.66);
+
+  border-radius: 2em;
+  border: 3px solid rgb(65, 65, 65);
+  cursor: pointer;
+}
+
+#test {
+  -webkit-user-select: none;
+  padding: 0.3em;
+  color: #000000;
+  font-family: monospace;
+  font-size: 56px;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 400px;
+  height: 600px;
+  text-align: center;
+  background: rgba(236, 225, 225, 0.66);
+  border-radius: 1em;
+  border: 3px solid rgb(65, 65, 65);
+}
+
+#titlename {
+  z-index: 4;
+  -webkit-user-select: none;
+
+  pointer-events: none;
+  padding: 0.3em;
+  color: #000000;
+  font-family: monospace;
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  right: 215px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  background: rgba(236, 225, 225, 0.66);
+  border-radius: 1em;
+  border: 3px solid rgb(65, 65, 65);
+}
+#goright {
+  -webkit-user-select: none;
+  font-size: 23px;
+  border-radius: 1em;
+  padding: 1.5px;
+  background: rgba(66, 66, 66, 0.842);
+  width: 37px;
+  height: 37px;
+  color: #e2e2e2dc;
+  color: #e2e2e2b0;
+  pointer-events: visibleFill;
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+#goleft {
+  -webkit-user-select: none;
+  font-size: 23px;
+  border-radius: 1em;
+  padding: 1.5px;
+  background: rgba(66, 66, 66, 0.842);
+  width: 37px;
+  height: 37px;
+  color: #e2e2e2dc;
+  pointer-events: visibleFill;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+#closepic {
+  -webkit-user-select: none;
+  font-size: 22px;
+  border-radius: 1em;
+  padding: 0.18em;
+  background: rgba(66, 66, 66, 0.842);
+  width: 37px;
+  height: 37px;
+  color: #e2e2e2dc;
+  pointer-events: visibleFill;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+#picshow {
+  -webkit-user-select: none;
+  pointer-events: visibleFill;
+  padding: 0.75em;
+  color: #000000;
+  font-family: monospace;
+  font-size: 23px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(236, 225, 225, 0.66);
+  display: none;
+}
+
+.innersize {
+  color: #000000;
+  font-family: monospace;
+  font-size: 23px;
+  position: relative;
+  border-radius: 0.5em;
+  border: 3px solid rgb(65, 65, 65);
+  display: none;
+}
+
+#picturesPanel {
+  -webkit-user-select: none;
+  flex-flow: row nowrap;
+  position: absolute;
+  display: none;
+  padding: 0.25em;
+  color: #000000;
+  font-family: monospace;
+  font-size: 20px;
+  top: 67%;
+  left: 3%;
+  width: 80%;
+  height: 30%;
+  background: rgba(236, 225, 225, 0.66);
+  border-radius: 0.5em;
+  border: 3px solid rgb(65, 65, 65);
+  overflow-x: hidden;
+}
+
+.pictureshow {
+  pointer-events: none;
+  scroll-snap-type: x mandatory;
+
+  overflow-x: scroll;
+  display: flex;
+  flex-flow: row nowrap;
+  cursor: none;
+}
+
+#progressBar {
+  -webkit-user-select: none;
+  width: 500px;
+  height: 24px;
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  margin-left: -250px;
+}
+
+#annotationsPanel {
+  z-index: 4;
+  -webkit-user-select: none;
+  padding: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  top: 8px;
+  right: 15px;
+
+  width: 235px;
+  bottom: 8px;
+  color: white;
+  font-family: monospace;
+
+  text-align: center;
+  text-justify: inter-word;
+}
+#annotationsPanel:hover {
+  -webkit-scrollbar-thumb-background: rgb(114, 114, 114);
+}
+/* Designing for scroll-bar */
+#annotationsPanel::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+#annotationsPanel::-webkit-scrollbar-track {
+  background: rgba(156, 156, 156, 0.849);
+  border-radius: 5px;
+}
+
+/* Handle */
+#annotationsPanel::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 30px;
+
+  border: 1px solid rgba(143, 143, 143, 0.329);
+}
+
+/* Handle on hover */
+#annotationsPanel::-webkit-scrollbar-thumb:hover {
+  background: rgb(41, 41, 41);
+}
+
+#annotationsPanel ul {
+  list-style-type: none;
+}
+
+.annotationLabel {
+  cursor: pointer;
+  pointer-events: visibleFill;
+  color: #ffffff;
+  font-family: monospace;
+
+  font-size: 17px;
+}
+
+.modelName {
+  -ms-user-select: none;
+  color: #ffffff;
+  font-family: monospace;
+  pointer-events: none;
+  font-size: 14px;
+  position: absolute;
+  top: -25px;
+  left: 30px;
+  border: 2px solid rgba(117, 183, 209, 0.774);
+  padding: 0.3em;
+  width: 100px;
+  height: 28px;
+  background: rgba(143, 140, 140, 0.801);
+  text-align: center;
+  transition: opacity 0.5s;
+  display: block;
+}
+
+.annotationName {
+  color: #ffffff;
+  font-family: monospace;
+  pointer-events: none;
+  font-size: 14px;
+  position: absolute;
+  top: -25px;
+  left: 30px;
+  border: 2px solid rgba(202, 197, 126, 0.774);
+  padding: 0.3em;
+  width: 100px;
+  height: 28px;
+  background: rgba(143, 140, 140, 0.801);
+  text-align: center;
+  transition: opacity 0.5s;
+  display: none;
+}
+
+.annotationDescription {
+  color: #000000;
+  font-family: monospace;
+  pointer-events: none;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  top: -500%;
+  right: 200%;
+  height: auto;
+  width: 400px;
+  padding: 1em;
+  background: rgba(236, 225, 225, 0.66);
+  border-radius: 0.5em;
+  transition: opacity 0.5s;
+  text-align: left;
+  display: none;
+}
+
+.annotationPicture {
+  color: #000000;
+  font-family: monospace;
+  pointer-events: none;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 200px;
+  width: 200px;
+  padding: 1em;
+  background: rgba(236, 225, 225, 0.66);
+  border-radius: 0.5em;
+  transition: opacity 0.5s;
+  text-align: center;
+  display: none;
+}
+
+.annotationButton {
+  border-radius: 5px;
+  width: 140px;
+  height: 35px;
+  font-family: monospace;
+  background-color: rgba(87, 87, 87, 0.733);
+  color: white;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 2px;
+  right: 10px;
+  border: none;
+}
+.annotationButton:hover {
+  border-radius: 5px;
+
+  background-color: rgba(63, 63, 63, 0.452);
+
+  cursor: pointer;
+}
+#wrapper {
+  float: left;
+}
+#canvas_frame {
+  pointer-events: none;
+  color: white;
+  cursor: none;
+  left: 0px;
+  top: 0px;
+}
+.paint {
+  background: skyblue;
+  display: block;
+  cursor: pointer;
+  z-index: -1;
+  border: none;
+  height: 100%;
+  left: 0px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  top: 0px;
+  transform: translate3d(0, 0, 0);
+  width: 100%;
+}
+#od {
+  background: rgba(197, 197, 197, 0.5);
+  position: fixed;
+
+  display: none;
+  text-align: center;
+}
+#vidoff {
+  pointer-events: none;
+  position: absolute;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+.obj_detect {
+  width: 696px;
+  height: 392px;
+  bottom: 25%;
+  right: 50px;
+  position: fixed;
+  text-align: center;
+}
+
+.bgcolor {
+  background: white;
+  display: block;
+}
+
+#canvas {
+  border: 2px solid rgba(202, 197, 126, 0.774);
+
+  bottom: 25%;
+  right: 50px;
+  color: gray;
+  position: fixed;
+}
+
+#video {
+  border: 5px solid rgba(53, 120, 182, 0.836);
+
+  bottom: 25%;
+  right: 50px;
+  position: fixed;
+}
+
+.loading {
+  width: 696px;
+  height: 392px;
+  bottom: 25%;
+  right: 50px;
+  color: gray;
+  position: fixed;
+  opacity: 0.2;
+  background-color: #ffffff;
+}

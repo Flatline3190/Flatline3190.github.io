@@ -1,0 +1,204 @@
+#web {
+  z-index: 3;
+  mix-blend-mode: normal;
+  width: 100%;
+  height: 100%;
+  background: rgba(245, 245, 245, 0);
+  display: none;
+  padding: 10px;
+}
+#root {
+  mix-blend-mode: normal;
+  z-index: 3;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  top: 100px;
+  left: 320px;
+  width: calc(100% - 320px);
+  height: calc(100% - 120px);
+  position: absolute;
+  text-align: center;
+  display: flex;
+  direction: rtl;
+
+  margin: 5px;
+}
+
+/*This cause the division content
+to be displayed from right to left */
+
+/* Designing for scroll-bar */
+#root::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+#root::-webkit-scrollbar-track {
+  background: rgba(220, 220, 220, 0.534);
+  border-radius: 5px;
+}
+
+/* Handle */
+#root::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+#root::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.app {
+  z-index: 3;
+  mix-blend-mode: normal;
+  direction: ltr;
+  overflow: visible;
+  position: relative;
+  display: block;
+  align-items: center;
+  width: 100%;
+  margin: 5px;
+}
+
+.content {
+  width: 100%;
+
+  height: 100%;
+}
+
+.content-top {
+  background-color: aquamarine;
+}
+
+.content-bottom {
+  background-color: salmon;
+}
+
+.main-content {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Here is where the animated element starts! */
+
+.animate-me {
+  width: 100%;
+
+  height: 100%;
+  background: #69686856;
+  transition: 0.15s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.animate-me.animate {
+  animation: 1.25s 1 normal sliding-animation;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation-fill-mode: forwards;
+}
+
+.lab_information {
+  background: rgba(202, 233, 245, 0);
+  font-family: monospace;
+  pointer-events: visibleFill;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  display: block;
+}
+.closing {
+  color: #000000;
+  font-family: monospace;
+  font-size: 15px;
+  position: fixed;
+  top: -15px;
+  left: -15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: rgb(236, 225, 225);
+  border-radius: 2em;
+  border: 3px solid rgb(65, 65, 65);
+  cursor: pointer;
+  display: none;
+}
+.container {
+  width: 95%;
+  height: 95%;
+  left: 2.5%;
+  top: 2.5%;
+
+  font-family: monospace;
+  text-align: center;
+
+  display: block;
+}
+.title {
+  background: rgba(250, 250, 250, 0.712);
+  top: 20px;
+  padding: 15px;
+  margin: 15px;
+  width: 700px;
+  height: auto;
+
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+  font-size: 35px;
+  color: black;
+  display: block;
+}
+.intro {
+  padding: 10px;
+
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+.introtext {
+  padding: 5px;
+  font-family: monospace;
+  text-align: justify;
+  text-justify: inter-word;
+  position: relative;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  display: block;
+}
+.contents {
+  padding: 10px;
+
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+.contenttext {
+  padding: 10px;
+  font-family: monospace;
+  text-align: justify;
+  text-justify: inter-word;
+  position: relative;
+  font-size: 25px;
+  color: rgb(200, 176, 255);
+  display: block;
+}
+
+@keyframes sliding-animation {
+  from {
+    transform: translateX(45%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
