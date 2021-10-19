@@ -1,0 +1,98 @@
+#labPanel {
+  z-index: -1;
+  -webkit-user-select: none;
+  font-family: monospace;
+  pointer-events: none;
+  width: 50%;
+  height: 80%;
+  top: 10%;
+  right: 200px;
+  padding: 2px;
+  position: fixed;
+  text-align: center;
+  display: none;
+}
+.lab_information {
+  background: rgba(202, 233, 245, 0.938);
+  font-family: monospace;
+  pointer-events: visibleFill;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  display: block;
+}
+.closing {
+  color: #000000;
+  font-family: monospace;
+  font-size: 15px;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: rgba(236, 225, 225, 0.66);
+  border-radius: 2em;
+  border: 3px solid rgb(65, 65, 65);
+  cursor: pointer;
+  display: block;
+}
+.container {
+  width: 95%;
+  height: 95%;
+  left: 2.5%;
+  top: 2.5%;
+  border: 2px solid white;
+  font-family: monospace;
+  text-align: center;
+  position: absolute;
+  display: block;
+}
+.title {
+  padding: 30px;
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  color: black;
+  display: inline;
+}
+.intro {
+  padding: 10px;
+
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+.introtext {
+  font-weight: lighter;
+  padding: 5px;
+  font-family: monospace;
+  text-align: justify;
+  text-justify: inter-word;
+  position: relative;
+  font-size: 17px;
+  color: black;
+  display: block;
+}
+.contents {
+  padding: 10px;
+
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+.contenttext {
+  font-weight: lighter;
+  padding: 10px;
+  font-family: monospace;
+  text-align: justify;
+  text-justify: inter-word;
+  position: relative;
+  font-size: 20px;
+  color: rgb(62, 48, 95);
+  display: block;
+}
