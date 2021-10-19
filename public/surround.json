@@ -1,0 +1,66 @@
+[
+  {
+    "path": "/glb/surround.glb",
+    "name": "周遭建物",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+
+  {
+    "path": "/glb/草木1.glb",
+    "name": "周遭樹樹",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "path": "/glb/草木2.glb",
+    "name": "周遭樹樹",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "path": "/glb/草木3.glb",
+    "name": "周遭樹樹",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "path": "/glb/草木4.glb",
+    "name": "周遭樹樹",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "path": "/glb/powerline.glb",
+    "name": "電塔",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "path": "/-glb/fence.glb",
+    "name": "周遭建物",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+]

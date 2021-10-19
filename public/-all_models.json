@@ -1,0 +1,1171 @@
+[
+  {
+    "name": "行政大樓",
+    "site": "https://www.aipaltech.com/",
+    "description": "畜牧場工作人員主要辦公區域，除了辦公室與會議室外，二樓也提供給相關人員住宿的空間。",
+    "position": { "x": 111.343, "y": 0, "z": 113.824 },
+    "place": [
+      {
+        "path": "/glb/行政大樓_1F.glb",
+        "name": "行政大樓_1F",
+        "description": "......",
+        "position": {
+          "x": 111.343,
+          "y": 0,
+          "z": 113.824
+        },
+        "spot": [
+          {
+            "lab": "G",
+            "work": "G......",
+            "location": {
+              "x": 120.87217585366253,
+              "y": 2.4667486639626333,
+              "z": 113.36904890223205
+            },
+            "facility": [
+              {
+                "name": "監測系統",
+                "path": "/glb/X_computer.glb",
+                "position": {
+                  "x": 122.24709251434045,
+                  "y": 1.1447018692931183,
+                  "z": 109.60238030656645
+                }
+              },
+              {
+                "name": "觀察紀錄系統",
+                "path": "/glb/microscope.glb",
+                "position": {
+                  "x": 120.38442892146942,
+                  "y": 1.1447018692931186,
+                  "z": 110.41824345126125
+                }
+              },
+              {
+                "name": "攪拌實驗設備",
+                "path": "/glb/mixer.glb",
+                "position": {
+                  "x": 119.69061813089843,
+                  "y": 1.1447018692931183,
+                  "z": 115.69699293272576
+                }
+              },
+              {
+                "name": "實驗儀器",
+                "path": "/glb/a_machine.glb",
+                "position": {
+                  "x": 126.45860275121254,
+                  "y": 1.1447018692931172,
+                  "z": 112.69345618192526
+                }
+              },
+              {
+                "name": "demo影片",
+                "path": "/glb/demo影片.glb",
+                "position": {
+                  "x": 117.67916288074584,
+                  "y": 2.7178140116267198,
+                  "z": 114.35698040421025
+                }
+              }
+            ]
+          },
+          {
+            "lab": "B",
+            "work": "B.......",
+            "location": {
+              "x": 113.16368129525047,
+              "y": 2.4677864032768118,
+              "z": 112.30574214754579
+            }
+          },
+          {
+            "lab": "I",
+            "work": "I.......",
+            "location": {
+              "x": 101.61411732601276,
+              "y": 2.469000000000144,
+              "z": 113.79906059068675
+            }
+          },
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": {
+              "x": 119.3646714916603,
+              "y": 2.4690000000001446,
+              "z": 104.3975980981519
+            }
+          },
+          {
+            "lab": "J",
+            "work": "J.......",
+            "location": {
+              "x": 107.59740305181435,
+              "y": 2.4677864032768118,
+              "z": 110.20355745827909
+            },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 105.59740305181435,
+                  "y": 1.488254145763553,
+                  "z": 110.20355745827909
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/glb/行政大樓_2F.glb",
+        "name": "行政大樓_2F",
+        "description": "......",
+        "position": {
+          "x": 111.343,
+          "y": 0,
+          "z": 113.824
+        },
+        "spot": [
+          {
+            "lab": "C",
+            "work": "C......",
+            "location": {
+              "x": 113.16413994729338,
+              "y": 6.947655969894044,
+              "z": 112.30678927716268
+            }
+          },
+          {
+            "lab": "D",
+            "work": "D.......",
+            "location": {
+              "x": 119.36513014370321,
+              "y": 6.948869566617376,
+              "z": 104.39864522776878
+            }
+          },
+          {
+            "lab": "H",
+            "work": "H.......",
+            "location": {
+              "x": 120.87263450570543,
+              "y": 6.946618230579867,
+              "z": 113.37009603184893
+            }
+          },
+          {
+            "lab": "F",
+            "work": "F.......",
+            "location": {
+              "x": 101.61457597805567,
+              "y": 6.948869566617376,
+              "z": 113.80010772030363
+            }
+          }
+        ]
+      },
+      {
+        "path": "/glb/行政大樓_RF.glb",
+        "name": "行政大樓_RF",
+        "description": "......",
+        "position": {
+          "x": 111.343,
+          "y": 0,
+          "z": 113.824
+        },
+        "spot": [
+          {
+            "lab": "A",
+            "work": "A......",
+            "location": {
+              "x": 115.73414962945316,
+              "y": 12.96545693065918,
+              "z": 105.956249483156
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "乳製品加工廠",
+    "description": "加工畜牧場牛隻所生產之乳製品，包含牛乳、冰淇淋等產品，以提供中興大學實習商店銷售。",
+    "position": { "x": 129.791, "y": 0, "z": 150.964 },
+    "place": [
+      {
+        "path": "/glb/A棟.glb",
+        "name": "乳製品加工廠",
+        "description": "......",
+        "position": { "x": 129.791, "y": 0, "z": 150.964 },
+        "spot": [
+          {
+            "lab": "test",
+            "work": "test......",
+            "location": {
+              "x": 129.791,
+              "y": 2.4667486639626333,
+              "z": 150.964
+            },
+            "facility": [
+              {
+                "name": "監測系統",
+                "path": "/glb/X_computer.glb",
+                "position": {
+                  "x": 129.791,
+                  "y": 1.1447018692931183,
+                  "z": 150.864
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "廢棄物處理廠",
+    "description": "用以處理加工廠運作時所產出的副產物與廢棄物，也包含消毒等工作事項。",
+    "position": { "x": 160.601, "y": 0, "z": 144.225 },
+    "place": [
+      {
+        "path": "/gltf/A棟附屬.gltf",
+        "name": "廢棄物處理廠",
+        "description": "用以處理加工廠運作時所產出的副產物與廢棄物，也包含消毒等工作事項。",
+        "position": { "x": 160.601, "y": 0, "z": 144.225 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 160.601, "y": 0, "z": 144.225 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 160.601,
+                  "y": 0,
+                  "z": 144.225
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "倉庫一",
+    "description": "用於存放器具與雜物的空間。",
+    "position": { "x": 86.63, "y": 0, "z": 22.797 },
+    "place": [
+      {
+        "path": "/gltf/C棟.gltf",
+        "name": "倉庫一",
+        "description": "用於存放器具與雜物的空間。",
+        "position": { "x": 86.63, "y": 0, "z": 22.797 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 86.63, "y": 0, "z": 22.797 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": { "x": 86.63, "y": 0, "z": 22.797 }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "溫室",
+    "description": "專用作種植植物的建築物。",
+    "position": { "x": 54.834, "y": 0, "z": 21.154 },
+    "place": [
+      {
+        "path": "/gltf/C棟附屬.gltf",
+        "name": "溫室",
+        "description": "專用作種植植物的建築物。",
+        "position": { "x": 54.834, "y": 0, "z": 21.154 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 54.834, "y": 0, "z": 21.154 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": { "x": 54.834, "y": 0, "z": 21.154 }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "豬舍一",
+    "description": "現在未有生物飼養於此。",
+    "position": { "x": 88.637, "y": 0, "z": 7.769 },
+    "place": [
+      {
+        "path": "/gltf/D棟.gltf",
+        "name": "豬舍一",
+        "description": "現在未有生物飼養於此。",
+        "position": { "x": 88.637, "y": 0, "z": 7.769 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 88.637, "y": 0, "z": 7.769 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": { "x": 88.637, "y": 0, "z": 7.769 }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "倉庫二",
+    "description": "用於存放器具與雜物的空間。",
+    "position": { "x": 77.194, "y": 0, "z": -1.365 },
+    "place": [
+      {
+        "path": "/gltf/E棟.gltf",
+        "name": "倉庫二",
+        "description": "用於存放器具與雜物的空間。",
+        "position": { "x": 77.194, "y": 0, "z": -1.365 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 77.194, "y": 0, "z": -1.365 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": { "x": 77.194, "y": 0, "z": -1.365 }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍一",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "position": { "x": 66.196, "y": 0, "z": -22.302 },
+    "place": [
+      {
+        "path": "/gltf/F棟.gltf",
+        "name": "雞舍一",
+        "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+        "position": { "x": 66.196, "y": 0, "z": -22.302 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 66.196, "y": 0, "z": -22.302 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 66.196,
+                  "y": 0,
+                  "z": -22.302
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "乾草房",
+    "description": "此空間主要存放用於飼養牛隻的乾草。",
+    "position": { "x": 32.502, "y": 0, "z": -45.519 },
+    "place": [
+      {
+        "path": "/gltf/G棟.gltf",
+        "name": "乾草房",
+        "description": "此空間主要存放用於飼養牛隻的乾草。",
+        "position": { "x": 32.502, "y": 0, "z": -45.519 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 32.502, "y": 0, "z": -45.519 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 32.502,
+                  "y": 0,
+                  "z": -45.519
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍二",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "position": { "x": 30.859, "y": 0, "z": -65.624 },
+    "place": [
+      {
+        "path": "/glb/H棟.glb",
+        "name": "雞舍二",
+        "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+        "position": { "x": 30.859, "y": 0, "z": -65.624 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 30.859, "y": 0, "z": -65.624 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 30.859,
+                  "y": 0,
+                  "z": -65.624
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍三",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "position": { "x": 28.144, "y": 0, "z": -81.094 },
+    "place": [
+      {
+        "path": "/gltf/J棟.gltf",
+        "name": "雞舍三",
+        "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+        "position": { "x": 28.144, "y": 0, "z": -81.094 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 28.144, "y": 0, "z": -81.094 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 28.144,
+                  "y": 0,
+                  "z": -81.094
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍四",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "position": { "x": 27.141, "y": 0, "z": -101.96 },
+    "place": [
+      {
+        "path": "/gltf/K棟.gltf",
+        "name": "雞舍四",
+        "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+        "position": { "x": 27.141, "y": 0, "z": -101.96 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 27.141, "y": 0, "z": -101.96 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 27.141,
+                  "y": 0,
+                  "z": -101.96
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "管理舍",
+    "description": "位於畜牧場中央，較能方便管理各農舍狀況，也用於存放器具。",
+    "position": { "x": 10.192, "y": 0, "z": -95.122 },
+    "place": [
+      {
+        "path": "/gltf/管理室.gltf",
+        "name": "管理舍",
+        "description": "位於畜牧場中央，較能方便管理各農舍狀況，也用於存放器具。",
+        "position": { "x": 10.192, "y": 0, "z": -95.122 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 10.192, "y": 0, "z": -95.122 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 10.192,
+                  "y": 0,
+                  "z": -95.122
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍五",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "position": { "x": -31.547, "y": 0, "z": -107.623 },
+    "place": [
+      {
+        "path": "/gltf/L棟.gltf",
+        "name": "雞舍五",
+        "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+        "position": { "x": -31.547, "y": 0, "z": -107.623 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": -31.547, "y": 0, "z": -107.623 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": -31.547,
+                  "y": 0,
+                  "z": -107.623
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "廢水處理廠",
+    "description": "大型水槽，集束牧場內的廢水並加以淨化。",
+    "position": { "x": 77.545, "y": 0, "z": -51.749 },
+    "place": [
+      {
+        "path": "/gltf/M棟.gltf",
+        "name": "廢水處理廠",
+        "description": "大型水槽，集束牧場內的廢水並加以淨化。",
+        "position": { "x": 77.545, "y": 0, "z": -51.749 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 77.545, "y": 0, "z": -51.749 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 77.545,
+                  "y": 0,
+                  "z": -51.749
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍七",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "position": { "x": 65.741, "y": 0, "z": -67.067 },
+    "place": [
+      {
+        "path": "/gltf/N棟.gltf",
+        "name": "雞舍七",
+        "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+        "position": { "x": 65.741, "y": 0, "z": -67.067 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 65.741, "y": 0, "z": -67.067 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 65.741,
+                  "y": 0,
+                  "z": -67.067
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "豬舍二",
+    "description": "現在未有生物飼養於此。",
+    "position": { "x": 69.182, "y": 0, "z": -84.045 },
+    "place": [
+      {
+        "path": "/gltf/O棟.gltf",
+        "name": "豬舍二",
+        "description": "現在未有生物飼養於此。",
+        "position": { "x": 69.182, "y": 0, "z": -84.045 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 69.182, "y": 0, "z": -84.045 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 69.182,
+                  "y": 0,
+                  "z": -84.045
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍八",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "position": { "x": 62.983, "y": 0, "z": -98.715 },
+    "place": [
+      {
+        "path": "/gltf/P棟.gltf",
+        "name": "雞舍八",
+        "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+        "position": { "x": 62.983, "y": 0, "z": -98.715 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 62.983, "y": 0, "z": -98.715 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 62.983,
+                  "y": 0,
+                  "z": -98.715
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍九",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "position": { "x": 53.964, "y": 0, "z": -112.493 },
+    "place": [
+      {
+        "path": "/gltf/Q棟.gltf",
+        "name": "雞舍九",
+        "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+        "position": { "x": 53.964, "y": 0, "z": -112.493 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 53.964, "y": 0, "z": -112.493 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 53.964,
+                  "y": 0,
+                  "z": -112.493
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍十",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "position": { "x": 45.999, "y": 0, "z": -125.059 },
+    "place": [
+      {
+        "path": "/gltf/R棟.gltf",
+        "name": "雞舍十",
+        "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+        "position": { "x": 45.999, "y": 0, "z": -125.059 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 45.999, "y": 0, "z": -125.059 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 45.999,
+                  "y": 0,
+                  "z": -125.059
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍十一",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "position": { "x": 37.347, "y": 0, "z": -135.468 },
+    "place": [
+      {
+        "path": "/gltf/S棟.gltf",
+        "name": "雞舍十一",
+        "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+        "position": { "x": 37.347, "y": 0, "z": -135.468 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 37.347, "y": 0, "z": -135.468 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 37.347,
+                  "y": 0,
+                  "z": -135.468
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "發電機",
+    "description": "此建物因樹木遮蔽而未出現在正射影像內部機械用於發電。",
+    "position": { "x": 29.234, "y": 0, "z": -146.358 },
+    "place": [
+      {
+        "path": "/gltf/T棟.gltf",
+        "name": "發電機",
+        "description": "此建物因樹木遮蔽而未出現在正射影像內部機械用於發電。",
+        "position": { "x": 29.234, "y": 0, "z": -146.358 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 29.234, "y": 0, "z": -146.358 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 29.234,
+                  "y": 0,
+                  "z": -146.358
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "乾草房後的電箱",
+    "description": ["就..電箱吧"],
+    "position": { "x": 47.154, "y": 0, "z": -57.171 },
+    "place": [
+      {
+        "path": "/glb/郵筒.glb",
+        "name": "乾草房後的電箱",
+        "description": ["就..電箱吧"],
+        "position": { "x": 47.154, "y": 0, "z": -57.171 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 47.154, "y": 0, "z": -57.171 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 47.154,
+                  "y": 0,
+                  "z": -57.171
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "水塔",
+    "description": "應該就是個儲水的塔 吧",
+    "position": { "x": 1.898, "y": 0, "z": -30.453 },
+    "place": [
+      {
+        "path": "/gltf/水塔.gltf",
+        "name": "水塔",
+        "description": "應該就是個儲水的塔 吧",
+        "position": { "x": 1.898, "y": 0, "z": -30.453 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 1.898, "y": 0, "z": -30.453 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": { "x": 1.898, "y": 0, "z": -30.453 }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "水禽舍",
+    "description": "現在未有生物飼養於此。",
+    "position": { "x": -35.265, "y": 0, "z": -138.803 },
+    "place": [
+      {
+        "path": "/gltf/水禽.gltf",
+        "name": "水禽舍",
+        "description": "現在未有生物飼養於此。",
+        "position": { "x": -35.265, "y": 0, "z": -138.803 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": -35.265, "y": 0, "z": -138.803 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": -35.265,
+                  "y": 0,
+                  "z": -138.803
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "堆肥舍",
+    "description": "大型空間，主要用來堆肥。",
+    "position": { "x": -59.327, "y": 0, "z": -188.47 },
+    "place": [
+      {
+        "path": "/gltf/水肥.gltf",
+        "name": "堆肥舍",
+        "description": "大型空間，主要用來堆肥。",
+        "position": { "x": -59.327, "y": 0, "z": -188.47 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": -59.327, "y": 0, "z": -188.47 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": -59.327,
+                  "y": 0,
+                  "z": -188.47
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "牛舍",
+    "description": "飼養大型牛隻(乳牛)等與採集牛乳，一旁的空地也提供牛隻活動場所。",
+    "position": { "x": 0, "y": 0, "z": 0 },
+    "place": [
+      {
+        "path": "/glb/牛舍.glb",
+        "name": "牛舍",
+        "description": "飼養大型牛隻(乳牛)等與採集牛乳，一旁的空地也提供牛隻活動場所。",
+        "position": { "x": 0, "y": 0, "z": 0 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 0, "y": 0, "z": 0 },
+            "facility": [
+              {
+                "name": "牛1",
+                "path": "/glb/standcomputer.glb",
+                "position": { "x": 0, "y": 0, "z": 0 }
+              },
+              {
+                "name": "牛2",
+                "path": "/glb/standcomputer.glb",
+                "position": { "x": 2, "y": 0, "z": 2 }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "小牛舍",
+    "description": "未成年的小牛的生長與受保護的環境、懷孕前後的母牛也在此休養與待產。",
+    "position": { "x": -1.801, "y": 0, "z": -46.163 },
+    "place": [
+      {
+        "path": "/gltf/小牛.gltf",
+        "name": "小牛舍",
+        "description": "未成年的小牛的生長與受保護的環境、懷孕前後的母牛也在此休養與待產。",
+        "position": { "x": -1.801, "y": 0, "z": -46.163 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": -1.801, "y": 0, "z": -46.163 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": -1.801,
+                  "y": 0,
+                  "z": -46.163
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍十二",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "position": { "x": 16.19, "y": 0, "z": -112.863 },
+    "place": [
+      {
+        "path": "/gltf/雞一.gltf",
+        "name": "雞舍十二",
+        "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+        "position": { "x": 16.19, "y": 0, "z": -112.863 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 16.19, "y": 0, "z": -112.863 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 16.19,
+                  "y": 0,
+                  "z": -112.863
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍十三",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "position": { "x": 9.171, "y": 0, "z": -124.376 },
+    "place": [
+      {
+        "path": "/gltf/雞二.gltf",
+        "name": "雞舍十三",
+        "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+        "position": { "x": 9.171, "y": 0, "z": -124.376 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 9.171, "y": 0, "z": -124.376 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 9.171,
+                  "y": 0,
+                  "z": -124.376
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍十四",
+    "description": "特別構造的雞舍，孵蛋及小雞發育的空間。",
+    "position": { "x": 4.833, "y": 0, "z": -136.663 },
+    "place": [
+      {
+        "path": "/gltf/雞三.gltf",
+        "name": "雞舍十四",
+        "description": "特別構造的雞舍，孵蛋及小雞發育的空間。",
+        "position": { "x": 4.833, "y": 0, "z": -136.663 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": 4.833, "y": 0, "z": -136.663 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": 4.833,
+                  "y": 0,
+                  "z": -136.663
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "雞舍十五",
+    "description": "特別構造的雞舍，孵蛋及小雞發育的空間。",
+    "position": { "x": -0.567, "y": 0, "z": -143.535 },
+    "place": [
+      {
+        "path": "/gltf/雞四.gltf",
+        "name": "雞舍十五",
+        "description": "特別構造的雞舍，孵蛋及小雞發育的空間。",
+        "position": { "x": -0.567, "y": 0, "z": -143.535 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": -0.567, "y": 0, "z": -143.535 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": -0.567,
+                  "y": 0,
+                  "z": -143.535
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "馬廄",
+    "description": "現在未有生物飼養於此。",
+    "position": { "x": -23.631, "y": 0, "z": -93.308 },
+    "place": [
+      {
+        "path": "/gltf/馬.gltf",
+        "name": "馬廄",
+        "description": "現在未有生物飼養於此。",
+        "position": { "x": -23.631, "y": 0, "z": -93.308 },
+        "spot": [
+          {
+            "lab": "E",
+            "work": "E.......",
+            "location": { "x": -23.631, "y": 0, "z": -93.308 },
+            "facility": [
+              {
+                "name": "播放硬體",
+                "path": "/glb/standcomputer.glb",
+                "position": {
+                  "x": -23.631,
+                  "y": 0,
+                  "z": -93.308
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

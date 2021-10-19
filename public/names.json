@@ -1,0 +1,457 @@
+[
+  {
+    "path": "/glb/行政大樓_1F.glb",
+    "name": "行政大樓_1F",
+    "description": "......",
+    "position": {
+      "x": 111.343,
+      "y": 0,
+      "z": 113.824
+    }
+  },
+  {
+    "path": "/glb/行政大樓_2F.glb",
+    "name": "行政大樓_2F",
+    "description": "......",
+    "position": {
+      "x": 111.343,
+      "y": 0,
+      "z": 113.824
+    }
+  },
+  {
+    "path": "/glb/行政大樓_RF.glb",
+    "name": "行政大樓_RF",
+    "description": "......",
+    "position": {
+      "x": 111.343,
+      "y": 0,
+      "z": 113.824
+    }
+  },
+  {
+    "path": "/glb/行政大樓_2.glb",
+    "name": "行政中心",
+    "description": "畜牧場工作人員主要辦公區域，除了辦公室與會議室外，二樓也提供給相關人員住宿的空間。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/1PHR8L8U30gCifsxwsBdyFI2thhNzm_eG=w1919-h974-iv1",
+      "https://lh3.google.com/u/0/d/1iHhr42jU75aAI98P93Lr6r4EFk3KZiHd=w1919-h974-iv1",
+      "https://lh3.google.com/u/0/d/1AwZj4Rd44bYIpwIIM8GjnPUvEBnVtGHC=w1919-h974-iv1",
+      "https://lh3.google.com/u/0/d/1ML8jJLrdm6YWf4K4s00PrP-2eKdz8oBi=w1919-h974-iv1",
+      "https://lh3.google.com/u/0/d/1cwqS1VrJ3cCnac4d4Eb-p8BJ_RRRbw91=w1919-h974-iv1"
+    ],
+    "position": {
+      "x": 111.343,
+      "y": 0,
+      "z": 113.824
+    }
+  },
+  {
+    "path": "/glb/A棟.glb",
+    "name": "乳製品加工廠",
+    "description": "加工畜牧場牛隻所生產之乳製品，包含牛乳、冰淇淋等產品，以提供中興大學實習商店銷售。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/129c6lv7ew_mWbnPgi-RySvJUe0HaCFi8=w1920-h990-iv1",
+      "https://lh3.google.com/u/0/d/1DLBtqM0Rk9hKE7aUFCEmEL369c7KLqbN=w1920-h990-iv1",
+      "https://lh3.google.com/u/0/d/1at1Crx4SSvoXRytgdILxYOe9EpFFffLS=w1920-h990-iv1",
+      "https://lh3.google.com/u/0/d/1d04tFlPv9IakC6C_5sGRb67GektnJMfb=w1920-h990-iv1",
+      "https://lh3.google.com/u/0/d/1oDBpVaA8-_hJ8YkjrJdYCBfGctvQE6MD=w1920-h990-iv1"
+    ],
+    "position": {
+      "x": 129.791,
+      "y": 0,
+      "z": 150.964
+    }
+  },
+  {
+    "path": "/gltf/A棟附屬.gltf",
+    "name": "廢棄物處理廠",
+    "description": "用以處理加工廠運作時所產出的副產物與廢棄物，也包含消毒等工作事項。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/12h4FnS4jieSaNK8vvQ1FLMPhoFNya6rn=w1920-h990-iv1",
+      "https://lh3.google.com/u/0/d/1V13VSObYh4-FFgpo9envhqo0uDu2BIsb=w1920-h990-iv1",
+      "https://lh3.google.com/u/0/d/1I8s-jfboi31G2ZjuyzuV0bioq9gvKoMn=w1920-h990-iv1",
+      "https://lh3.google.com/u/0/d/1_Wt7-VKu2aTZUSauKr0ht53zpSdS4Tjl=w1920-h990-iv1"
+    ],
+    "position": {
+      "x": 160.601,
+      "y": 0.4,
+      "z": 144.225
+    }
+  },
+  {
+    "path": "/gltf/C棟.gltf",
+    "name": "倉庫一",
+    "description": "用於存放器具與雜物的空間。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/11W_zGqIZSUILL_xM41KuNS9xz7FVFzHU=w1920-h990-iv1",
+      "https://lh3.google.com/u/0/d/1xlOd-pof9dqjH1R6FhmKaeqhtzxYqc3f=w1920-h990-iv1"
+    ],
+    "position": {
+      "x": 86.63,
+      "y": -0.5,
+      "z": 22.797
+    }
+  },
+  {
+    "path": "/gltf/C棟附屬.gltf",
+    "name": "溫室",
+    "description": "專用作種植植物的建築物。",
+    "picture": ["https://lh3.google.com/u/0/d/1cms_HBa4NKoLSytEbhsIezdiZu9h--3B=w1920-h954-iv1"],
+    "position": {
+      "x": 54.834,
+      "y": 0.05,
+      "z": 21.154
+    }
+  },
+  {
+    "path": "/gltf/D棟.gltf",
+    "name": "豬舍一",
+    "description": "現在未有生物飼養於此。",
+    "picture": ["https://lh3.google.com/u/0/d/1qaLuTQv4Ye6o19YxL-ZLFIvpbwhhwerK=w1920-h990-iv1"],
+    "position": {
+      "x": 88.637,
+      "y": 0,
+      "z": 7.769
+    }
+  },
+  {
+    "path": "/gltf/E棟.gltf",
+    "name": "倉庫二",
+    "description": "用於存放器具與雜物的空間。",
+    "picture": ["https://lh3.google.com/u/0/d/1NbFsQB1uFm2HufBOi80h21KKfd8RmMM9=w1920-h990-iv2"],
+    "position": {
+      "x": 77.194,
+      "y": 0,
+      "z": -1.365
+    }
+  },
+  {
+    "path": "/gltf/F棟.gltf",
+    "name": "雞舍一",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/1EyXdUTYipm6aPovRHOtCJC9Cq92-x6cJ=w1920-h990-iv2",
+      "https://lh3.google.com/u/0/d/1E-koIooPj0G2lR1wLOAaQicknjKvXLTf=w1920-h990-iv2"
+    ],
+    "position": {
+      "x": 66.196,
+      "y": 0,
+      "z": -22.302
+    }
+  },
+  {
+    "path": "/gltf/G棟.gltf",
+    "name": "乾草房",
+    "description": "此空間主要存放用於飼養牛隻的乾草。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/1p-BhmgtiHgSTgd6-0HQZr1I0oiXHRIGu=w1920-h990-iv2",
+      "https://lh3.google.com/u/0/d/1CvqcBz3vj-zf2u8V_cBkmJtpl2ZwkRXM=w1920-h990-iv2",
+      "https://lh3.google.com/u/0/d/17G3vcs1-neQUNSslmfG74_FsZKLahB1n=w1920-h990-iv2",
+      "https://lh3.google.com/u/0/d/1FV11UaO1HYFXEg1rvMMOSHtnXWTK53y4=w1920-h990-iv2"
+    ],
+    "position": {
+      "x": 32.502,
+      "y": 0,
+      "z": -45.519
+    }
+  },
+  {
+    "path": "/glb/H棟.glb",
+    "name": "雞舍二",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/15CTJJJu-LLS860A86H5mcE4nohgLTou-=w1920-h954-iv2",
+      "https://lh3.google.com/u/0/d/1eX1IQ2ynekXdlPqhvzOnR25JS4jNM_XC=w1920-h954-iv1"
+    ],
+    "position": {
+      "x": 30.859,
+      "y": 0,
+      "z": -65.624
+    }
+  },
+  {
+    "path": "/gltf/J棟.gltf",
+    "name": "雞舍三",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "picture": ["https://lh3.google.com/u/0/d/1NnJs1ilsfmLv6Sbfa_OKcxPzPA_SYFCL=w1920-h954-iv1"],
+    "position": {
+      "x": 28.144,
+      "y": 0,
+      "z": -81.094
+    }
+  },
+  {
+    "path": "/gltf/K棟.gltf",
+    "name": "雞舍四",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "picture": ["https://lh3.google.com/u/0/d/1etUCv5j4lGLC3RjFy1pHtVlwXEydSNox=w1920-h954-iv1"],
+    "position": {
+      "x": 27.141,
+      "y": 0,
+      "z": -101.96
+    }
+  },
+  {
+    "path": "/gltf/管理室.gltf",
+    "name": "管理舍",
+    "description": "位於畜牧場中央，較能方便管理各農舍狀況，也用於存放器具。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/1WQvySFRwGg0ToP9Td_oiTTEyygCScUuf=w1920-h990-iv2",
+      "https://lh3.google.com/u/0/d/10-LiI_2qSmTOVelETyBQ9jxH12TdptQB=w1920-h990-iv2"
+    ],
+    "position": {
+      "x": 10.192,
+      "y": 0,
+      "z": -95.122
+    }
+  },
+  {
+    "path": "/gltf/L棟.gltf",
+    "name": "雞舍五",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/1QAzcPutiWEMsfKsWwVQLAMfcuQe9qiKC=w1920-h954-iv2",
+      "https://lh3.google.com/u/0/d/1INcT6p3ejY0Okg8kfP9uZyYFWdz6XlEg=w1920-h954-iv2"
+    ],
+    "position": {
+      "x": -31.547,
+      "y": -0.5,
+      "z": -107.623
+    }
+  },
+  {
+    "path": "/gltf/M棟.gltf",
+    "name": "廢水處理廠",
+    "description": "大型水槽，集束牧場內的廢水並加以淨化。",
+    "picture": ["https://lh3.google.com/u/0/d/1j4MuuQnMuicKHMFerMHzFYOchA24nj2T=w1920-h954-iv2"],
+    "position": {
+      "x": 77.545,
+      "y": 0,
+      "z": -51.749
+    }
+  },
+  {
+    "path": "/gltf/N棟.gltf",
+    "name": "雞舍七",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "picture": ["https://lh3.google.com/u/0/d/1GV_GRg5seTBRhcP-JMxQZWTgOB0qqAdA=w1920-h954-iv1"],
+    "position": {
+      "x": 65.741,
+      "y": 0,
+      "z": -67.067
+    }
+  },
+  {
+    "path": "/gltf/O棟.gltf",
+    "name": "豬舍二",
+    "description": "現在未有生物飼養於此。",
+    "picture": ["https://lh3.google.com/u/0/d/1qYRUpo363vkDHIwyDcNEvwt8lUHBs8Cs=w1920-h954-iv1"],
+    "position": {
+      "x": 69.182,
+      "y": 0,
+      "z": -84.045
+    }
+  },
+  {
+    "path": "/gltf/P棟.gltf",
+    "name": "雞舍八",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "picture": ["https://lh3.google.com/u/0/d/1xL5yq9HeHaoAyYILTskIEu_hPC2Aw7Lu=w1920-h954-iv1"],
+    "position": {
+      "x": 62.983,
+      "y": 0,
+      "z": -98.715
+    }
+  },
+  {
+    "path": "/gltf/Q棟.gltf",
+    "name": "雞舍九",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "picture": ["https://lh3.google.com/u/0/d/14an1rXfHWprMEluqmXU6oqxycXZRN-Lo=w1920-h954-iv1"],
+    "position": {
+      "x": 53.964,
+      "y": 0,
+      "z": -112.493
+    }
+  },
+  {
+    "path": "/gltf/R棟.gltf",
+    "name": "雞舍十",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "picture": ["https://lh3.google.com/u/0/d/1kgb3GGE9AXXZJ3adcc5je60PgH6v7kiI=w1920-h954-iv2"],
+    "position": {
+      "x": 45.999,
+      "y": 0,
+      "z": -125.059
+    }
+  },
+  {
+    "path": "/gltf/S棟.gltf",
+    "name": "雞舍十一",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "picture": ["https://lh3.google.com/u/0/d/1O_vqUslo649chT0OwVpP5T5Pn5Mlj_yd=w1920-h990-iv1"],
+    "position": {
+      "x": 37.347,
+      "y": 0,
+      "z": -135.468
+    }
+  },
+  {
+    "path": "/gltf/T棟.gltf",
+    "name": "發電機",
+    "description": "此建物因樹木遮蔽而未出現在正射影像內部機械用於發電。",
+    "picture": ["https://lh3.google.com/u/0/d/1RR24xziuvRbhOsRRfZiFMBjBSsR6Xzs5=w1920-h990-iv1"],
+    "position": {
+      "x": 29.234,
+      "y": 0,
+      "z": -146.358
+    }
+  },
+  {
+    "path": "/glb/郵筒.glb",
+    "name": "乾草房後的電箱",
+    "description": ["就..電箱吧"],
+    "picture": ["https://lh3.google.com/u/0/d/1y_DH_YJA3El-LijUBeEqABpdb7jhNqjW=w1920-h954-iv1"],
+    "position": {
+      "x": 47.154,
+      "y": 0,
+      "z": -57.171
+    }
+  },
+  {
+    "path": "/gltf/水塔.gltf",
+    "name": "水塔",
+    "description": "應該就是個儲水的塔 吧",
+    "picture": ["https://lh3.google.com/u/0/d/1Q1s8XWc-1YgSdzHu7HQjfC-v-4N1Zs-D=w1920-h990-iv2"],
+    "position": {
+      "x": 1.898,
+      "y": 0,
+      "z": -30.453
+    }
+  },
+  {
+    "path": "/gltf/水禽.gltf",
+    "name": "水禽舍",
+    "description": "現在未有生物飼養於此。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/1CtfL_BQrFfdUotTcfC3go0GRCn4FQvdg=w1920-h990-iv2",
+      "https://lh3.google.com/u/0/d/1BwHrVnJ0bjDfF9M6ACrfPoEKXtOALxed=w1920-h990-iv2"
+    ],
+    "position": {
+      "x": -35.265,
+      "y": -0.5,
+      "z": -138.803
+    }
+  },
+  {
+    "path": "/gltf/水肥.gltf",
+    "name": "堆肥舍",
+    "description": "大型空間，主要用來堆肥。",
+    "picture": ["https://lh3.google.com/u/0/d/1IOrOp-tPYD_YXUQqMzMkumzoAwVVD2La=w1920-h990-iv2"],
+    "position": {
+      "x": -59.327,
+      "y": 0,
+      "z": -188.47
+    }
+  },
+  {
+    "path": "/gltf/大牛.gltf",
+    "name": "牛舍",
+    "description": "飼養大型牛隻(乳牛)等與採集牛乳，一旁的空地也提供牛隻活動場所。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/172XppAvHQ8wvF_i6MzPdgYhoSsj58VWy=w1920-h990-iv1",
+      "https://lh3.google.com/u/0/d/1-smK_W-HoYoczs6llM-p1jAHFFUDAOHm=w1920-h990-iv2",
+      "https://lh3.google.com/u/0/d/1j7RJHmviz7dukvGvJ9LqbAO-ZdaiKCq1=w1920-h990-iv1",
+      "https://lh3.google.com/u/0/d/1nZDw45p4X__xUn958pzZ_1UW25Rj4kCx=w1920-h990-iv1",
+      "https://lh3.google.com/u/0/d/1M4emEn1yvwvIy9Ay3dk3zvZB5JDJ_yRk=w1920-h990-iv2"
+    ],
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "path": "/gltf/小牛.gltf",
+    "name": "小牛舍",
+    "description": "未成年的小牛的生長與受保護的環境、懷孕前後的母牛也在此休養與待產。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/1MfCGrdqeznxMhiHhidK0jUN8Y1qMKp9F=w1920-h990-iv2",
+      "https://lh3.google.com/u/0/d/1O5QXsFF55v1_HH6E84ou1a2LpnfItzSb=w1920-h990-iv2",
+      "https://lh3.google.com/u/0/d/1zPr2Vz6mqY3ViiDoixw9uQBSj41gFnWp=w1920-h990-iv2"
+    ],
+    "position": {
+      "x": -1.801,
+      "y": 0,
+      "z": -46.163
+    }
+  },
+  {
+    "path": "/gltf/雞一.gltf",
+    "name": "雞舍十二",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/1GSweI4o6BVWpkIXvEmm80t2wy9MCIo8M=w1920-h954-iv3",
+      "https://lh3.google.com/u/0/d/1oWEN8b3Fxf_hjhPW-dHDZvIqeO4lbSt0=w1920-h954-iv2"
+    ],
+    "position": {
+      "x": 16.19,
+      "y": 0,
+      "z": -112.863
+    }
+  },
+  {
+    "path": "/gltf/雞二.gltf",
+    "name": "雞舍十三",
+    "description": "用來飼養雞群，提供一個雞隻生長與繁殖的場所。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/1W-FbOqXTM5gplgXvqciR6aTrlFqYxZRW=w1920-h954-iv2",
+      "https://lh3.google.com/u/0/d/1tHBy6NzcPFVOKYOer7b8M5vGlZeZp8LJ=w1920-h954-iv2"
+    ],
+    "position": {
+      "x": 9.171,
+      "y": 0,
+      "z": -124.376
+    }
+  },
+  {
+    "path": "/gltf/雞三.gltf",
+    "name": "雞舍十四",
+    "description": "特別構造的雞舍，孵蛋及小雞發育的空間。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/1OiSeLLj5DIH1TyIUog3j3eTc9SjCfDkE=w1920-h954-iv2",
+      "https://lh3.google.com/u/0/d/1Dfwvc91w6_ltaPJ74_cEs0eQYgOgprte=w1920-h954-iv2"
+    ],
+    "position": {
+      "x": 4.833,
+      "y": 0,
+      "z": -136.663
+    }
+  },
+  {
+    "path": "/gltf/雞四.gltf",
+    "name": "雞舍十五",
+    "description": "特別構造的雞舍，孵蛋及小雞發育的空間。",
+    "picture": ["https://lh3.google.com/u/0/d/1vxx-XrNHIUBAEyHSr-ZvLzMH3AfY4z9O=w1920-h954-iv2"],
+    "position": {
+      "x": -0.567,
+      "y": -0.5,
+      "z": -143.535
+    }
+  },
+  {
+    "path": "/gltf/馬.gltf",
+    "name": "馬廄",
+    "description": "現在未有生物飼養於此。",
+    "picture": [
+      "https://lh3.google.com/u/0/d/1aL68ucme7QQQi5DQ3RaoRcBwY_YmI_zq=w1920-h990-iv2",
+      "https://lh3.google.com/u/0/d/1Gn9TeTZgktjceSmsjRlVbP9qhOlGfjYC=w1920-h990-iv2"
+    ],
+    "position": {
+      "x": -23.631,
+      "y": 0,
+      "z": -93.308
+    }
+  }
+]
