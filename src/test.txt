@@ -1,0 +1,33 @@
+ domEvents.addEventListener(node, 'mouseover', (event) => {
+              over += 1
+              //console.log('in',over)
+              //console.log(event.target.id)
+              if (over === 1) {
+                const house = scene.getObjectById(node.userData)
+                house.traverse(function (node) {
+                  if (node.isMesh) {
+                    if (node.material.opacity === 0.6) {
+                      node.material.opacity = 1.0
+                    }
+                  }
+                })
+              }
+            })
+            //domEvents.addEventListener(node, 'click', event =>{console.log('clicked!!!!')})
+            domEvents.addEventListener(node, 'mouseout', (event) => {
+              out += 1
+              //console.log('out',out)
+              //console.log(event.target.id)
+              if (out === over) {
+                const house = scene.getObjectById(node.userData)
+                house.traverse(function (node) {
+                  if (node.isMesh) {
+                    if (node.material.opacity === 1.0) {
+                      node.material.opacity = 0.6
+                    }
+                  }
+                })
+                over = 0
+                out = 0
+              }
+            })
